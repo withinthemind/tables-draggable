@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  color: #222;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 200;
+  margin: 0 50px;
+}
+
+.react-draggable, .cursor {
+  cursor: move;
+}
+.no-cursor {
+  cursor: auto;
+}
+.cursor-y {
+  cursor: ns-resize;
+}
+.cursor-x {
+  cursor: ew-resize;
+}
+#container {
+	width:480px;
+	border:1px solid #ccc;
+	margin:auto;
+	padding:25px;
+	height:640px;
+}
+.sala {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0AQMAAABuVIRkAAAABlBMVEUAAADu7u6BVFV4AAAAAXRSTlMAQObYZgAAACdJREFUOMtjYICAAxDKgGGUP8of5dOP/x8FfMDgj4bXKH+UP2jzJwBiEqSJ8GVOuwAAAABJRU5ErkJggg==);
+	height: 400px;
+	width: 430px;
+	margin-top:20px;
+}
+img {
+	margin-right:20px;
+}
